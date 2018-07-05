@@ -50,7 +50,8 @@ To run this code, make sure you update accordingly your `kafkabrokers` variable 
 
 ```python
 !pip install opencv-python
-!pip install kafka-python```
+!pip install kafka-python
+```
 
 
 Second, you will find one databricks notebook under the `databricks` folder. The `KafkaStructStream` notebook is a Spark Structured Streaming job that will consume a Kafka topic, perform the face detection using OpenCV on each frame, and write back to another Kafka topic.
@@ -59,4 +60,5 @@ Import this notebook into Databricks. Instructions [here](https://docs.azuredata
 
 ```python
 !pip install opencv-python
-!pip install kafka-python```
+!pip install kafka-python
+```
